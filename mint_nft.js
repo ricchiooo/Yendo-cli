@@ -1,4 +1,7 @@
-const { Connection, PublicKey } = require('@solana/web3.js');
+const connection = new web3.Connection(
+  "https://api.devnet.solana.com",
+  "confirmed"
+);
 const { programs } = require('@metaplex/js');
 const fetch = require('node-fetch');  // To fetch the media URI
 

@@ -1,0 +1,20 @@
+{
+  "name": "Yendo Genesis",
+  "symbol": "YENDO",
+  "description": "The first NFT of Yendo, representing the beginning of a revolutionary Solana project.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmUtXHcmT8Wiu7kj2XnQqgpBjmvj7avt7EJPihnRfTubU3",
+  "attributes": [
+    { "trait_type": "Project", "value": "Yendo" },
+    { "trait_type": "Generation", "value": "Genesis" },
+    { "trait_type": "Blockchain", "value": "Solana" }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.pinata.cloud/ipfs/YOUR_IMAGE_CID",
+        "type": "image/jpeg"
+      }
+    ],
+    "category": "image"
+  }
+}
