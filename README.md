@@ -1,16 +1,16 @@
 # Yendo CLI
 
-*Yendo* is an AI-powered command-line tool that allows users to mint SPL tokens and NFTs on the Solana blockchain. Built for developers and crypto-native creators, it simplifies on-chain operations and enhances Devnet interaction through smart automation and improved UX.
+*Yendo* is an AI-powered command-line tool that enables users to mint SPL tokens and NFTs on the Solana blockchain with ease. Designed for developers and crypto-native creators, it streamlines on-chain operations while enhancing Devnet interaction through automation and clean UX.
 
 ---
 
 ## Features
 
-- Mint SPL tokens with metadata  
-- Mint NFTs using image & metadata hosting  
-- Send NFTs and tokens across wallets  
-- Built-in Devnet support with real-time CLI feedback  
-- Optional AI-generated NFT metadata  
+- Mint custom SPL tokens with metadata  
+- Mint NFTs with hosted images and metadata (nft.storage integration)  
+- Transfer SPL tokens or NFTs between wallets  
+- Built-in Solana Devnet support with real-time CLI feedback  
+- Optional AI-generated NFT metadata for creative automation  
 
 ---
 
@@ -24,12 +24,9 @@
 
 ---
 
-## Usage
+## Getting Started
 
-1. Clone the repo  
-2. Run npm install  
-3. Use commands like:
-
-```bash
-node index.js mint-token
-node index.js mint-nft --image="./demo.png"
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/richiooo/Yendo-cli.git
+   cd Yendo-cli
