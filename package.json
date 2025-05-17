@@ -1,12 +1,14 @@
 {
-  "name": "project-folder",
+  "name": "yendo",
   "version": "1.0.0",
   "description": "NFT Image Uploader using Pinata",
   "main": "uploadImage.js",
   "scripts": {
     "start": "node uploadImage.js"
   },
-  "bin": "uploadImage.js",
+  "bin": {
+    "yendo": "./uploadImage.js"
+  },
   "dependencies": {
     "@metaplex-foundation/js": "^0.20.1",
     "@metaplex-foundation/mpl-token-metadata": "^3.4.0",

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require("fs");
 const pinataSDK = require("@pinata/sdk");
 const path = require("path");
@@ -28,7 +29,7 @@ async function uploadToPinata(imagePath) {
 
     const response = await pinata.pinFileToIPFS(readableStreamForFile, options);
 
-    const imageUrl = https://gateway.pinata.cloud/ipfs/${response.IpfsHash};
+    const imageUrl = `https://gateway.pinata.cloud/ipfs/${response.IpfsHash}`;
 
     console.log("Image uploaded successfully!");
     console.log("Image URL:", imageUrl);
